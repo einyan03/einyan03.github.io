@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Htet Ein Yan — software engineer</title>
+    <meta
+      name="description"
+      content="Htet Ein Yan is a software engineer in Prague. Platform work at Make and Emplifi, plus public game and learning projects."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#work">Skip to work</a>
+    <header class="mast">
+      <p class="kicker">Prague</p>
+      <h1>Htet Ein Yan</h1>
+      <p class="role">Software engineer</p>
+      <p class="lede">
+        I work on the systems that store, move, and run other people’s
+        integrations: backends, data pipelines, and the APIs around them.
+        The recent work is TypeScript and Node.js. Before that I spent years
+        in quality assurance, and before that I built games and small web
+        tools.
+      </p>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/htet-ein-yan/">LinkedIn</a></li>
+        <li><a href="https://github.com/einyan03">GitHub</a></li>
+        <li><a href="https://einyan.itch.io">Itch</a></li>
+        <li><a href="mailto:einyan03@gmail.com">einyan03@gmail.com</a></li>
+      </ul>
+    </header>
+
+    <main id="work">
+      <section>
+        <h2>Now</h2>
+        <article>
+          <header class="role-head">
+            <h3>Software engineer, Core Integration Team</h3>
+            <p>Make · Prague · Aug 2025 – present</p>
+          </header>
+          <p>
+            The core platform stores, compiles, delivers, and runs more than
+            2,000 app integrations. I design the features I own, and I join
+            the wider calls on database choice, service boundaries, and the
+            data model.
+          </p>
+          <p>
+            The legacy Data Store is still in about 250,000 active scenarios.
+            I migrated and refactored it with no downtime and no breaking
+            change for those scenarios.
+          </p>
+          <p>
+            Make Data Tables is the spreadsheet-like app that is meant to
+            replace that store. I have been a core engineer on it from the
+            proof of concept. The service is hexagonal. I helped compare
+            Aurora, MongoDB, and Neon, and I helped present the decision.
+            The Kubernetes service covers tables, columns, rows, scenarios,
+            key-value and foreign-key relationships, query checks, bulk
+            operations, and memory limits. Deletes are auditable. An Angular
+            UI lets someone store, search, and manage records without writing
+            JSON or defining a schema. I also built the native modules that
+            take the place of the old Data Store modules.
+          </p>
+          <p>
+            In app-runtime, the service the integrations depend on, epoch
+            values were sorting incorrectly. I fixed that sensitive case and
+            checked it with tests and review before it went out.
+          </p>
+          <p>
+            MCP Client lets a user connect their own AI provider, or an
+            internal one. I carried it from a proof of concept, through a
+            hackathon, into the product. The OAuth work covers static and
+            dynamic client registration. I scoped features with product,
+            design, and technical writers, and I worked customer issues with
+            QA, customer care, and writers.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Emplifi</h2>
+        <p class="section-note">
+          Four years and eight months in Prague, promoted from QA to support
+          development to software engineering.
+        </p>
+
+        <article>
+          <header class="role-head">
+            <h3>Software engineer, Data Platform</h3>
+            <p>Mar 2023 – Jul 2025</p>
+          </header>
+          <p>
+            I built and kept up the backend services that collect data from
+            Facebook, Instagram, Twitter/X, LinkedIn, Pinterest, TikTok, and
+            YouTube. The stack was Node.js, TypeScript, MongoDB, Redis,
+            RabbitMQ, and AWS Lambda and Kinesis, in a distributed
+            event-driven system. The pipelines handled tens of millions of
+            jobs a day. API migrations and system upgrades were how we made
+            that scale hold. Integration and unit tests used Cucumber and
+            Mocha. I worked with platform, product, and QA so the
+            integrations stayed consistent.
+          </p>
+        </article>
+
+        <article>
+          <header class="role-head">
+            <h3>Support developer</h3>
+            <p>May 2022 – Mar 2023</p>
+          </header>
+          <p>
+            I fixed bugs, tested by hand and with Cucumber, and checked that
+            our behavior still matched third-party API documentation. I
+            maintained the internal tools used to rebuild data. I also led
+            QA dojos and tightened how teams troubleshot the same problems.
+          </p>
+        </article>
+
+        <article>
+          <header class="role-head">
+            <h3>QA engineer</h3>
+            <p>Dec 2020 – Apr 2022</p>
+          </header>
+          <p>
+            This was the testing seat that led to the support and engineering
+            promotions.
+            <a href="https://csq.cz/certifikace/seznam-drzitelu-certifikatu/drzitele-certifikatu/filtr?jmeno=Ein%20Yan%20Htet&typ=istqb-certified-tester-foundation-level&cHash=b7713b091af991b6dd40e2ce61ef26e7#c1894">ISTQB Foundation Level</a>
+            (CTFL/00074/22), issued May 2022 by Česká společnost pro jakost.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Earlier</h2>
+        <article>
+          <header class="role-head">
+            <h3>Communications officer</h3>
+            <p>Parami Institute · Myanmar · Jun 2017 – Aug 2018</p>
+          </header>
+          <p>
+            I built the institute’s website and kept it updated week to week,
+            so donors and other stakeholders had a place to follow the work.
+            I also made graphics for print and for the web, planned the
+            social posts around the academic year, and wrote the copy for
+            those posts, promo videos, the annual report, and grant reports.
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>Frontend developer</h3>
+            <p>Nimble · Singapore · Oct 2016 – Mar 2017</p>
+          </header>
+          <p>
+            For client sites I worked through keyword and tag lists for SEO,
+            and I improved how fast the pages loaded. I also designed pages
+            and adjusted the interface of e-commerce sites.
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>Junior web developer</h3>
+            <p>Websparks · Apr 2015 – Sep 2015</p>
+          </header>
+          <p>
+            I built the administrative side of a chalet booking system for
+            The Chevrons in Singapore, in C# ASP.NET MVC 5 and DNN. Before
+            kickoff I prepared the risk analysis and the work breakdown. As
+            the admin features landed I wrote the user-acceptance notes and
+            the training material, and I stayed in the stakeholder
+            walkthroughs through sign-off.
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>English tutor, IELTS</h3>
+            <p>Apr 2017 – May 2017</p>
+          </header>
+          <p>A one-month IELTS tutoring stretch, homeschooled.</p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>IT support assistant</h3>
+            <p>Ngee Ann Polytechnic Computer Center · Mar 2015 – Apr 2015</p>
+          </header>
+          <p>
+            I installed course software for students and worked through
+            hardware and other notebook problems.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Selected work</h2>
+        <article>
+          <header class="role-head">
+            <h3>Shopit</h3>
+            <p>Mar 2020 – May 2020 · Vue.js · a personal project, not a job</p>
+          </header>
+          <p>
+            A shopping simulator for children about 7 to 11. A parent hands
+            over a list and an allowance; the child has to buy what was
+            asked and notice what the money can actually cover. The point
+            was financial literacy and a bit of elementary maths, without
+            the checkout doing the arithmetic for them.
+          </p>
+          <p>
+            <a href="https://github.com/einyan03/Shopit">Source</a>
+            ·
+            <a href="https://einyan.itch.io/shopit">Play it</a>
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>Parkbot</h3>
+            <p>Nov 2019 – Jan 2020</p>
+          </header>
+          <p>
+            A chatbot in the spirit of ELIZA. In Clojure, with OpenNLP for
+            the text and Leiningen for the build, the first version matched
+            a park to the facilities someone asked for. The next version
+            added a trained network so an image could be classified as a
+            dog breed as well.
+          </p>
+          <p>
+            <a href="https://github.com/Stanley008/Symbolic_Computation_2019">Course repository</a>
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>Achievement Quest</h3>
+            <p>Jan 2016 – Feb 2016 · C++ and DirectX</p>
+          </header>
+          <p>
+            A four-week side-scroller from the game programming course at
+            Ngee Ann Polytechnic. The avatar runs, jumps, and collects
+            achievements across one level, with a menu, pause, a minimap,
+            and simple AI. It was shown at the School of InfoComm Technology
+            graduation showcase in 2016.
+          </p>
+          <p>
+            <a href="https://github.com/einyan03/Achievement_Quest">Source</a>
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>UnSeen</h3>
+            <p>Nov 2015 – Dec 2015 · GameMaker</p>
+          </header>
+          <p>
+            My first finished game, a two-week prototype: a top-down reverse
+            tower defense, one player against the AI, with a tutorial and
+            three levels. It was played at the Ngee Ann open house and was
+            voted the most popular digital game in that cohort. It was also
+            in the 2016 InfoComm showcase.
+          </p>
+          <p>
+            <a href="https://einyan.itch.io/unseen">Play it</a>
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>Blackjack</h3>
+            <p>Python</p>
+          </header>
+          <p>
+            A small Blackjack game structured with objects.
+            <a href="https://github.com/einyan03/Blackjack">Source</a>
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <p>
+          Day to day: TypeScript, JavaScript, Node.js, PostgreSQL, MongoDB,
+          MySQL, AWS (S3, Kinesis, Lambda), RabbitMQ, Angular, Docker, and
+          Kubernetes as the place a service runs. I use Datadog, and I have
+          shipped with GitHub and CI. Redis and Elasticsearch have been part
+          of the data-platform work.
+        </p>
+        <p>
+          Also: Python, C# and ASP.NET, PHP, C++ with DirectX and GameMaker,
+          plus Unity and 3ds Max from game studies. Vue is Shopit. Tests:
+          Cucumber and Gherkin, Mocha, Jest, plus exploratory and regression
+          testing.
+        </p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <article>
+          <header class="role-head">
+            <h3>Diploma in Information Technology</h3>
+            <p>Ngee Ann Polytechnic, Singapore · 2013–2016</p>
+          </header>
+          <p>
+            Specialized in Solution Architect, with a sub-specialization in
+            game design and development. Active in the Ngee Ann Polytechnic
+            Buddhist Society.
+          </p>
+        </article>
+        <article>
+          <header class="role-head">
+            <h3>BSc Computing, deferred</h3>
+            <p>Prague City University · 2018–2020</p>
+          </header>
+          <p>Studies are deferred. This is not a completed degree.</p>
+        </article>
+        <h3 class="certs">Certificates</h3>
+        <ul>
+          <li>
+            <a href="https://credly.com/badges/6f7b70ad-9231-4e1a-b987-20da134f1560">AWS Certified Cloud Practitioner</a>
+            · issued Oct 2024, expires Oct 2027
+          </li>
+          <li>
+            <a href="https://csq.cz/certifikace/seznam-drzitelu-certifikatu/drzitele-certifikatu/filtr?jmeno=Ein%20Yan%20Htet&typ=istqb-certified-tester-foundation-level&cHash=b7713b091af991b6dd40e2ce61ef26e7#c1894">ISTQB Certified Tester, Foundation Level</a>
+            · May 2022
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Burmese and English. Czech at a limited working level. A little
+        Chinese.
+      </p>
+      <p>
+        <a href="mailto:einyan03@gmail.com">einyan03@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
